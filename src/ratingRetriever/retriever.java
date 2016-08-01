@@ -5,17 +5,24 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 import org.json.JSONException;
-import org.json.JSONObject;
 
 public class retriever {
 	public void start() throws Exception {
-		try {
-		    JSONObject json = new JSONObject(readUrl(1));
-		    String title = (String) json.get("first_name");
-		    System.out.println(title);
-		} catch (JSONException e) {
-		    e.printStackTrace();
-		}
+		//for(int i = 1; i < 326; i++) {
+			try {
+			    String message = readUrl(1);
+			    String messageAr[] = message.split("\"");
+			    for(int i = 0; i < messageAr.length; i++) {
+			    	if(messageAr[i].equals("rating")) {
+			    		System.out.println(messageAr[i+2]);
+			    	}
+			    }
+			    
+			    
+			} catch (JSONException e) {
+			    e.printStackTrace();
+			}
+		//}
 	}
 	private static String readUrl(int num) throws Exception {
 	    BufferedReader reader = null;
