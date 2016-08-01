@@ -10,7 +10,8 @@ import org.json.JSONException;
 
 public class retriever {
 	public void start() throws Exception {
-		String filename= "ratings.txt";
+		String filename= "ratingsColor.csv";
+		String cardType;
 	    FileWriter fw = new FileWriter(filename,true);
 		for(int i = 1; i < 326; i++) {
 			try {
@@ -19,7 +20,15 @@ public class retriever {
 			    for(int j = 0; j < messageAr.length; j++) {
 			    	if(messageAr[j].equals("rating")) {
 			    		try {
-			    			fw.write(messageAr[j+2] + "\n");//appends the string to the file
+			    			int messageInt = Integer.parseInt(messageAr[j+2]);
+			    			if(messageInt>=74) {
+			    				cardType = "gold";
+			    			} else if(messageInt<74 && messageInt>67) {
+			    				cardType = "silver";
+			    			} else {
+			    				cardType = "bronze";
+			    			}
+			    			fw.write(messageAr[j+2] + ", " + cardType + ",\n");//appends the string to the file
 			    		    System.out.println("appended");
 			    		} catch (IOException ioe) {
 			    			System.err.println("IOException: " + ioe.getMessage());
