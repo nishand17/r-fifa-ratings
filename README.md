@@ -10,6 +10,4 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 <img width="569" alt="screen shot 2016-08-09 at 1 13 26 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531976/3d1fb48e-5e33-11e6-8abd-db1e3da6b42e.png">
 <img width="564" alt="screen shot 2016-08-09 at 1 12 33 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531977/3d24b10a-5e33-11e6-805d-7366e7ae8824.png">
 <img width="558" alt="screen shot 2016-08-09 at 1 11 59 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531979/3d27d90c-5e33-11e6-9bd1-8aa43b364a41.png">
-
-
-
+<img width="563" alt="screen shot 2016-08-09 at 1 11 36 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531978/3d26fa14-5e33-11e6-9dbd-a8bb032517b5.png">
