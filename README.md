@@ -18,6 +18,8 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 <img width="564" alt="screen shot 2016-08-09 at 1 12 33 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531977/3d24b10a-5e33-11e6-805d-7366e7ae8824.png">
 ### Dotplot of Partial Dataset
 <img width="566" alt="screen shot 2016-08-09 at 1 13 52 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531975/3d1856e4-5e33-11e6-8f50-62ba37c03132.png">
+### FreqPoly with Area fill
+<img width="572" alt="screen shot 2016-08-10 at 6 56 27 pm" src="https://cloud.githubusercontent.com/assets/12012798/17576863/55e4a8c2-5f2c-11e6-9a9a-d762ebb5d266.png">
 ## R generated Graphs
 ### Density of Half Dataset 
 <img width="558" alt="screen shot 2016-08-09 at 1 11 59 pm"
