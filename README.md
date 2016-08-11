@@ -4,6 +4,8 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 - The data (about 19,000 ratings) is then written onto a .csv file
 - With ggplot2 and RStudio, this data is then visualized into 5 distinct histograms, density plots, and dotplots.
 
+# How to Run:
+
 # Graphs Screenshots:
 
 ##ggplot2 Graphs:
