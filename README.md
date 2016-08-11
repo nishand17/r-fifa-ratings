@@ -6,6 +6,8 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 
 # How to Run:
 - In your R console, use the source() function to run each of the R scripts
+- Make sure that the files are in your working directory using dir()
+- 
 
 # Graphs Screenshots:
 
