@@ -10,8 +10,8 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 - If souurce() does not work, then run each script line by line
 
 # Frameworks used:
-- [ggplot2] (http://ggplot2.org/) for the more complex graphs
-- [fifaguide's] (http://tools.fifaguide.com/develop.php) Developer API for retrieving ratings
+- [ggplot2] (http://ggplot2.org/) for the complex graphs
+- [fifaguide's Developer API] (http://tools.fifaguide.com/develop.php)  for retrieving ratings
 - [Google's Java JSON library] (https://github.com/google/gson) for parsing the JSON data
 
 # Graphs Screenshots:
