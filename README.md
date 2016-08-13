@@ -31,5 +31,5 @@ Data Visualization of FIFA 16's Player Ratings with R and Java
 src="https://cloud.githubusercontent.com/assets/12012798/17531979/3d27d90c-5e33-11e6-9bd1-8aa43b364a41.png">
 ### Polygon Density of Half Dataset
 <img width="567" alt="screen shot 2016-08-09 at 1 14 30 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531974/3d00e18a-5e33-11e6-890b-3b12ee07b1c2.png">
-### Histogram of Helf Dataset
+### Histogram of Half Dataset
 <img width="563" alt="screen shot 2016-08-09 at 1 11 36 pm" src="https://cloud.githubusercontent.com/assets/12012798/17531978/3d26fa14-5e33-11e6-9dbd-a8bb032517b5.png">
