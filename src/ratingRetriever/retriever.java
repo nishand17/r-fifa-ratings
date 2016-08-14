@@ -27,7 +27,7 @@ public class retriever {
 			    			} else {
 			    				cardType = "bronze";
 			    			}
-			    			fw.write(messageAr[j+2] + ", " + cardType + ",\n");//appends the string to the file
+			    			fw.write(messageAr[j+2] + ", \n");//appends the string to the file
 			    		    System.out.println("appended");
 			    		} catch (IOException ioe) {
 			    			System.err.println("IOException: " + ioe.getMessage());
