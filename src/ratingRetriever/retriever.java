@@ -20,6 +20,7 @@ public class retriever {
 			    	if(messageAr[j].equals("rating")) {
 			    		try {
 			    			int messageInt = Integer.parseInt(messageAr[j+2]);
+			    			/*
 			    			if(messageInt>=74) {
 			    				cardType = "gold";
 			    			} else if(messageInt<74 && messageInt>67) {
@@ -27,6 +28,7 @@ public class retriever {
 			    			} else {
 			    				cardType = "bronze";
 			    			}
+			    			*/
 			    			fw.write(messageAr[j+2] + ", \n");//appends the string to the file
 			    		    System.out.println("appended");
 			    		} catch (IOException ioe) {
