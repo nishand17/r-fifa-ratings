@@ -44,7 +44,7 @@ public class retriever {
 	}
 	
 	private static String readUrl(int num) throws Exception {
-	    BufferedReader reader = null;
+	    BufferedReader reader;
 	    try {
 	    	String urlStr = "http://tools.fifaguide.com/api/club/" + num;
 	        URL url = new URL(urlStr);
