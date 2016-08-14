@@ -50,8 +50,9 @@ public class retriever {
 	        StringBuffer buffer = new StringBuffer();
 	        int read;
 	        char[] chars = new char[1024];
-	        while ((read = reader.read(chars)) != -1)
+	        while ((read = reader.read(chars)) != -1) {
 	            buffer.append(chars, 0, read); 
+	        }
 	        String message = buffer.toString().substring(1,(buffer.toString().length()-1));
 	        return message;
 	        
