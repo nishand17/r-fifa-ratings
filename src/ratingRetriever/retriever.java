@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-
 import org.json.JSONException;
 
 public class retriever {
@@ -35,14 +34,13 @@ public class retriever {
 			    		}
 			    	}
 			    }
-			    
-			    
 			} catch (JSONException e) {
 			    e.printStackTrace();
 			}
 		}
 		fw.close();
 	}
+	
 	private static String readUrl(int num) throws Exception {
 	    BufferedReader reader = null;
 	    try {
