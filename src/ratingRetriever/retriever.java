@@ -10,7 +10,7 @@ import org.json.JSONException;
 public class retriever {
 	public void start() throws Exception {
 		String filename= "ratingsColor.csv";
-		String cardType;
+		String cardType = "";
 	    FileWriter fw = new FileWriter(filename,true);
 		for(int i = 1; i < 326; i++) {
 			try {
