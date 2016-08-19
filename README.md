@@ -14,7 +14,6 @@ Data Visualization of FIFA 16's Player Ratings with R
 - Make sure that the files are in your working directory using dir()
 - If souurce() does not work, then run each script line by line
 
-
 # Graphs Screenshots:
 
 ##ggplot2 Graphs:
