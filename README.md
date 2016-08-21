@@ -12,7 +12,7 @@ Data Visualization of FIFA 16's Player Ratings with R
 # How to Run:
 - In your R console, use the source() function to run each of the R scripts
 - Make sure that the files are in your working directory using dir()
-- If souurce() does not work, then run each script line by line, making sure library(ggplot2) is ran
+- If source() does not work, then run each script line by line, making sure library(ggplot2) is ran
 
 # Graphs Screenshots:
 
