@@ -8,7 +8,7 @@ Data Visualization of FIFA 15's Player Ratings with R
 - [ggplot2] (http://ggplot2.org/) for the complex graphs
 - [fifaguide's Developer API] (http://tools.fifaguide.com/develop.php)  for retrieving ratings
 - [Google's Java JSON library] (https://github.com/google/gson) for parsing the JSON data
-- Java for the data parsing
+- Java for the data parsing and R for data visualization
 
 # How to Run:
 - In your R console, use the `source()` function to run each of the R scripts
