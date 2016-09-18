@@ -1,5 +1,5 @@
 # r-fifa-ratings
-Data Visualization of FIFA 15's Player Ratings with R
+Data Visualization of FIFA 15's Player Ratings with R and Java
 - Using [fifaguide's Developer API] (http://tools.fifaguide.com/develop.php), JSON files are retrieved and parsed with Java's JSON API in a separate Java file (see `src` for `ratingRetriever`).
 - The data (about 19,000 ratings) is then written onto multiple `.csv` files
 - With ggplot2 and R's built in capabilities, this data is then visualized into 7 distinct histograms, density plots, and dotplots.
